@@ -1,4 +1,5 @@
-# Gym Management System
+# Prakalpa Voting Portal
+
 
 DBMS project
 
