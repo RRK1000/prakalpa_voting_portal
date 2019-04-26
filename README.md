@@ -1,11 +1,38 @@
 # Prakalpa Voting Portal - DBMS Project
 
 This repo is maintained for hosting project files subject to evaluation. 
+Team Number: 16
 
 ## Team Members:
+Section 4G
 1.  Aniket Kaulavkar PES1201700095
 2.  Rishi Ravikumar PES1201700754
 3.  Vishnu S Murali PES1201701264
+
+
+# Execution Steps
+
+## Front-end server
+Run a python http server by executing the following command in the `/frontend/` directory. \
+``` python3 -m http.server ```
+
+## Firebase cli installation
+``` yarn global add firebase-tools ```
+
+## Back-end server
+To install dependencies, run the following command in the `/backend/functions/` directory. \
+``` yarn ```
+
+Run `firebase-login` to login to firebase inside the `/backend/` directory.
+
+To run server locally, type the following command in the `/backend/` directory. \
+``` firebase serve --only functions ```
+
+To deploy cloud functions, type the following command in the `/backend/` directory. \
+``` firebase serve --only functions ```
+
+### Note
+    Make sure a working internet connection exists.
 
 ## User requirements
 - The people who are a part of the voting application are categorized into admin, participants, students, and voters.
