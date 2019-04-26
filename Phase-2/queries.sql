@@ -27,7 +27,7 @@ order by count(*) desc;
 
 
 alter table teams
-alter column name type varchar(200);
+    alter column name type varchar(200);
 
 
 select u.usn,
